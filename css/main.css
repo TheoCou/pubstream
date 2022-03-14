@@ -1,0 +1,85 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+span{
+    font-size: 1.5rem;
+}
+
+strong{
+    font-size: 2rem;
+}
+body{
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgb(255, 255, 255);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Michroma', sans-serif;
+    margin: 0;
+}
+
+header img{
+    margin: auto;
+    width: 53rem;
+    padding-left: 50rem;
+    
+}
+
+button{
+    font-size: 1.9rem;
+    margin-left: 25rem;
+}
+
+h2{
+    font-size: 1.9rem;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+
+}
+
+section img{
+    width: 18rem;
+    height: 26rem;
+    margin: auto;
+    padding-left: 4rem;
+}
+
+
+
+
+
+/*form{
+    
+}
+*/
+
+
+
+
+
+
+
+
+footer{
+    background: none;
+    background-color: var(--color-primary);
+    margin-top:13rem;
+    text-align: center;
+    font-size: 3rem;
+
+}
