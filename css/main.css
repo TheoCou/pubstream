@@ -3,9 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
-
-
 span{
     font-size: 1.5rem;
 }
@@ -58,23 +55,6 @@ section img{
     margin: auto;
     padding-left: 4rem;
 }
-
-
-
-
-
-/*form{
-    
-}
-*/
-
-
-
-
-
-
-
-
 footer{
     background: none;
     background-color: var(--color-primary);
