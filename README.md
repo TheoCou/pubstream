@@ -1,6 +1,6 @@
 # PUBSTREAMING
 
-lien pour le site [PUBSTREAMING](https://theocou.github.io/PUBSTREAMING-main/index.html)
+lien pour le site [PUBSTREAMING](https://theocou.github.io/pubstream/)
 
 # Charte graphique/typographique
 font-family: 'Anonymous Pro', monospace <br>
