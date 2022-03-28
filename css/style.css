@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap%27');
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'dosis', sans-serif;
+    margin: 0;
+}
+h1, h2, h3{
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    background-color: #1C5882;
+}
+body{
+    background-color: rgba(52, 152, 219,0.1);
+}
+section h2{
+    text-align: center;
+    padding: 5rem;
+    color:  #1C5882;
+}
+h3, div{
+    text-align: center;
+    padding-right: 40rem;
+    color: #1C5882;
+}
+h4, div{
+    text-align: center;
+    color:#1C5882 ;
+}
+main .form {
+    padding: 1rem;
+    border: solid .1rem #ccc;
+    background-color: #fafafa;
+    border-color: #1C5882;
+    border-radius: 15px;
+    background: #fafafa;
+    padding: 4rem;
+    width: 65rem;
+    height: 53rem;
+}
+header h1 > strong{
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+}
+main{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.form input, .form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.form input{
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    padding: .5rem;
+
+}
+.form input[placeholder]{
+    font-size: 1.6rem;
+}
