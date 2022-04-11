@@ -21,7 +21,9 @@ body{
     font-family: 'Michroma', sans-serif;
     margin: 0;
 }
-
+header{
+    margin-left: 40rem;
+}
 header img{
     margin: auto;
     width: 53rem;
@@ -44,11 +46,12 @@ p{
     margin-bottom: 10rem;
     margin-top: 5rem;
 }
-
 section{
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-
+    margin-left: 40rem;
+}
+section li{
+    display: inline-block;
+    width: calc (100% / 3);
 }
 
 section img{
@@ -64,4 +67,12 @@ footer{
     text-align: center;
     font-size: 3rem;
 
+}
+
+@media screen and (max-width:70rem){
+
+    section li{
+        display: inline-block;
+        width: calc (100% / 3);
+    }
 }
